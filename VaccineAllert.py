@@ -22,7 +22,7 @@ mail_flag=input("Do you want to receive mail about the details (Y/N) ")
 if(mail_flag=="y" or mail_flag=="Y" ):
     to=input("enter your mail id: ")
 
-#print(mail_flag[0])
+
 
 
 
