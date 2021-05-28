@@ -1,11 +1,11 @@
-# VaccineAllert_pythonScript
+# VaccineAlert_pythonScript
 
 the API used form : https://apisetu.gov.in/ <br>
 pip install requests   #to send api request <br>
 
 email,smtplib libraries to send mail. <br>
 
-<h5>To run the script: </h5> python3 VaccineAllert.py <br>
+<h5>To run the script: </h5> python3 VaccineAlert.py <br>
 
 
 <h2>NOTE!</h1>
