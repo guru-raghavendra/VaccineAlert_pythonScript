@@ -9,7 +9,7 @@ email,smtplib libraries to send mail. <br>
 
 
 <h2>NOTE!</h1>
-if you get error like <b>smtplib.SMTPAuthenticationError: </b> 
+if you get error like <b>smtplib.SMTPAuthenticationError: </b>  <br>
 
 read this:  https://support.google.com/accounts/answer/6010255 
 
