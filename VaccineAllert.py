@@ -90,13 +90,13 @@ if(mail_flag=="y" or mail_flag=="Y" ):
     
     email_msg = email.message.EmailMessage()
     email_msg["Subject"] = "Vaccination Slot Details"
-    email_msg["From"] = "hguru1005@gmail.com"
+    email_msg["From"] = "fromAddress"
     email_msg["To"] = to
     email_msg.set_content(content)
 
     with smtplib.SMTP(host='smtp.gmail.com', port='587') as server:
         server.starttls()
-        server.login("hguru1005@gmail.com", "Guru@1729")
-        server.send_message(email_msg, "hguru1005@gmail.com", to)
+        server.login("fromAddress", "password_of_theFrom_addressMail")
+        server.send_message(email_msg, "fromAddress", to)
 
 
